@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lead-management-app"
+version = "0.1.0"
+description = ""
+authors = ["Jdev01 <jose_segovia_01@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mysql-connector-python = "^9.1.0"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
